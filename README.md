@@ -9,7 +9,8 @@ Este é um projeto pessoal desenvolvido com **HTML e CSS** para praticar layout,
 - CSS3 (Flexbox e Grid)
 
 ## 📸 Prévia
-![preview](img/preview.png)
+![preview](<img width="893" height="616" alt="image" src="https://github.com/user-attachments/assets/13c4bf63-3840-468a-8ab5-015cb18cab01"/>)
+
 
 ## 🚀 Autor
 Feito com 💻 por **Mateus Lessi**
