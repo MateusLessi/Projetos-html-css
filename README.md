@@ -1,47 +1,49 @@
-🔥 Clone do YouTube – Projeto Front-End
+# 🔥 Clone do YouTube – Projeto Front-End
 
 Este é um projeto pessoal desenvolvido para praticar layout, responsividade, organização de código, componentização com HTML + CSS e simulação de um layout real (YouTube).
 
-📍 Acesse o projeto:
-👉 https://mateuslessi.github.io/Projetos-html-css/
+**📍 Acesse o projeto:** 👉 [https://mateuslessi.github.io/Projetos-html-css/](https://mateuslessi.github.io/Projetos-html-css/)
 
-🚀 Objetivo do Projeto
+---
+
+## 🚀 Objetivo do Projeto
 
 O foco aqui foi reproduzir a interface inicial do YouTube, trabalhando:
 
-Estrutura semântica no HTML
+- Estrutura semântica no HTML
+- Layout com Flexbox e Grid
+- Barra lateral fixa
+- Header responsivo
+- Cards de vídeos
+- Ícones SVG otimizados
+- Organização de pastas e assets
+- Práticas reais usadas em front-end moderno
 
-Layout com Flexbox e Grid
+---
 
-Barra lateral fixa
+## 🧠 Tecnologias Utilizadas
 
-Header responsivo
+| Tecnologia | Uso |
+|------------|-----|
+| **HTML5** | Estrutura e marcação semântica |
+| **CSS3** | Layout, responsividade e estilização |
+| **Flexbox** | Header e navbar |
+| **Grid Layout** | Área principal dos vídeos |
+| **SVGs otimizados** | Ícones leves e escaláveis |
 
-Cards de vídeos
+---
 
-Ícones SVG otimizados
+## 🖼️ Prévia do Projeto
 
-Organização de pastas e assets
+![preview](Este Computador/Imagens/youtube-sc)
 
-Práticas reais usadas em front-end moderno
+> *Substitua `./caminho-da-sua-imagem.png` pela imagem real do projeto*
 
-🧠 Tecnologias Utilizadas
-Tecnologia	Uso
-HTML5	Estrutura e marcação semântica
-CSS3	Layout, responsividade e estilização
-Flexbox	Header e navbar
-Grid Layout	Área principal dos vídeos
-SVGs otimizados	Ícones leves e escaláveis
-🖼️ Prévia do Projeto
+---
 
-Aqui você pode colocar a imagem correta depois:
+## 📁 Estrutura de Pastas
 
-![preview](./caminho-da-sua-imagem.png)
-
-
-Se quiser, posso te gerar um mockup bonito depois.
-
-📁 Estrutura de Pastas
+```
 Projeto_HTML_CSS/
 │── index.html
 │── styles/
@@ -53,64 +55,59 @@ Projeto_HTML_CSS/
 │── Thumbnails/
 │── channel-pictures/
 └── README.md
+```
 
+**Bem organizado = vida fácil. Gambiarra = inferno futuro.** ✅
 
-Bem organizado = vida fácil.
-Gambiarra = inferno futuro.
-Você fez o certo aqui.
+---
 
-🧩 Funcionalidades
+## 🧩 Funcionalidades
 
-🔎 Barra de pesquisa funcional (não faz request, mas trabalha UX real)
+- 🔎 Barra de pesquisa funcional (não faz request, mas trabalha UX real)
+- 🎤 Botão de busca por voz (mock)
+- 📺 Grid responsivo de vídeos
+- 📂 Sidebar fixa com ícones e labels
+- 📱 Responsividade preparada para diferentes telas
+- 🎨 Ícones SVG com tooltip
 
-🎤 Botão de busca por voz (mock)
+---
 
-📺 Grid responsivo de vídeos
-
-📂 Sidebar fixa com ícones e labels
-
-📱 Responsividade preparada para diferentes telas
-
-🎨 Ícones SVG com tooltip
-
-🛠️ Melhorias Futuras (Roadmap)
+## 🛠️ Melhorias Futuras (Roadmap)
 
 Coisas que fariam esse projeto subir de nível:
 
- Modo escuro/light
+- [ ] Modo escuro/light
+- [ ] Adicionar JavaScript para navegação real
+- [ ] Criar tema baseado no YouTube de 2024
+- [ ] Melhorar a responsividade mobile
+- [ ] Criar versão com API (YouTube Data API)
 
- Adicionar JavaScript para navegação real
+---
 
- Criar tema baseado no YouTube de 2024
+## 📚 O que você aprendeu aqui
 
- Melhorar a responsividade mobile
+- Estrutura HTML profissional
+- Organização em componentes CSS
+- Como trabalhar com layout moderno
+- Como publicar com GitHub Pages
+- Como refatorar código e corrigir deploy quebrado
 
- Criar versão com API (YouTube Data API)
+---
 
-Se quiser, te ajudo a fazer cada uma.
+## 🧑‍💻 Autor
 
-📚 O que você aprendeu aqui
-
-Estrutura HTML profissional
-
-Organização em componentes CSS
-
-Como trabalhar com layout moderno
-
-Como publicar com GitHub Pages
-
-Como refatorar código e corrigir deploy quebrado (que deu trabalho, né?)
-
-🧑‍💻 Autor
-
-Feito por Mateus Lessi
-Se quiser colocar mais estilo:
+**Feito por Mateus Lessi**
 
 👋 Me encontre por aí:
-- GitHub: https://github.com/MateusLessi
-- LinkedIn: (manda o link que coloco)
+- **GitHub:** [https://github.com/MateusLessi](https://github.com/MateusLessi)
+- **LinkedIn:** https://www.linkedin.com/in/mateus-siqueira-723023384 
 
-📌 Licença
+---
 
-Esse projeto é livre para estudo.
-Se alguém quiser usar, use — mas dá o crédito pro pai. 😎
+## 📌 Licença
+
+Esse projeto é livre para estudo. Se alguém quiser usar, use — mas dá o crédito pro pai. 😎
+
+---
+
+💡 **Dica:** Adicione uma screenshot do projeto na seção de prévia para deixar o README ainda mais profissional!
