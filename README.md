@@ -35,11 +35,7 @@ O foco aqui foi reproduzir a interface inicial do YouTube, trabalhando:
 
 ## 🖼️ Prévia do Projeto
 
-![preview](Este Computador/Imagens/youtube-sc)
-
-> *Substitua `./caminho-da-sua-imagem.png` pela imagem real do projeto*
-
----
+![preview](C:\Users\MATEUS LESSI\OneDrive\Imagens\youtube-sc)
 
 ## 📁 Estrutura de Pastas
 
