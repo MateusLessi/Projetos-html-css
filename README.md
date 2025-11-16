@@ -1,16 +1,116 @@
-# Projeto: Clone do YouTube 🎥
+🔥 Clone do YouTube – Projeto Front-End
 
-Este é um projeto pessoal desenvolvido com **HTML e CSS** para praticar layout, posicionamento e responsividade.
+Este é um projeto pessoal desenvolvido para praticar layout, responsividade, organização de código, componentização com HTML + CSS e simulação de um layout real (YouTube).
 
-🔗 **Acesse o site:** [mateuslessi.github.io/Projetos-html-css](https://mateuslessi.github.io/Projetos-html-css)
+📍 Acesse o projeto:
+👉 https://mateuslessi.github.io/Projetos-html-css/
 
-## 🧠 Tecnologias
-- HTML5
-- CSS3 (Flexbox e Grid)
+🚀 Objetivo do Projeto
 
-## 📸 Prévia
-![preview](<img width="893" height="616" alt="image" src="https://github.com/user-attachments/assets/13c4bf63-3840-468a-8ab5-015cb18cab01"/>)
+O foco aqui foi reproduzir a interface inicial do YouTube, trabalhando:
+
+Estrutura semântica no HTML
+
+Layout com Flexbox e Grid
+
+Barra lateral fixa
+
+Header responsivo
+
+Cards de vídeos
+
+Ícones SVG otimizados
+
+Organização de pastas e assets
+
+Práticas reais usadas em front-end moderno
+
+🧠 Tecnologias Utilizadas
+Tecnologia	Uso
+HTML5	Estrutura e marcação semântica
+CSS3	Layout, responsividade e estilização
+Flexbox	Header e navbar
+Grid Layout	Área principal dos vídeos
+SVGs otimizados	Ícones leves e escaláveis
+🖼️ Prévia do Projeto
+
+Aqui você pode colocar a imagem correta depois:
+
+![preview](./caminho-da-sua-imagem.png)
 
 
-## 🚀 Autor
-Feito com 💻 por **Mateus Lessi**
+Se quiser, posso te gerar um mockup bonito depois.
+
+📁 Estrutura de Pastas
+Projeto_HTML_CSS/
+│── index.html
+│── styles/
+│   ├── header.css
+│   ├── sidebar.css
+│   ├── video.css
+│   └── geral.css
+│── icons/
+│── Thumbnails/
+│── channel-pictures/
+└── README.md
+
+
+Bem organizado = vida fácil.
+Gambiarra = inferno futuro.
+Você fez o certo aqui.
+
+🧩 Funcionalidades
+
+🔎 Barra de pesquisa funcional (não faz request, mas trabalha UX real)
+
+🎤 Botão de busca por voz (mock)
+
+📺 Grid responsivo de vídeos
+
+📂 Sidebar fixa com ícones e labels
+
+📱 Responsividade preparada para diferentes telas
+
+🎨 Ícones SVG com tooltip
+
+🛠️ Melhorias Futuras (Roadmap)
+
+Coisas que fariam esse projeto subir de nível:
+
+ Modo escuro/light
+
+ Adicionar JavaScript para navegação real
+
+ Criar tema baseado no YouTube de 2024
+
+ Melhorar a responsividade mobile
+
+ Criar versão com API (YouTube Data API)
+
+Se quiser, te ajudo a fazer cada uma.
+
+📚 O que você aprendeu aqui
+
+Estrutura HTML profissional
+
+Organização em componentes CSS
+
+Como trabalhar com layout moderno
+
+Como publicar com GitHub Pages
+
+Como refatorar código e corrigir deploy quebrado (que deu trabalho, né?)
+
+🧑‍💻 Autor
+
+Feito por Mateus Lessi
+Se quiser colocar mais estilo:
+
+👋 Me encontre por aí:
+- GitHub: https://github.com/MateusLessi
+- LinkedIn: (manda o link que coloco)
+
+📌 Licença
+
+Esse projeto é livre para estudo.
+Se alguém quiser usar, use — mas dá o crédito pro pai. 😎
