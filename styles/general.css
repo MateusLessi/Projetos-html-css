@@ -5,5 +5,10 @@ P{
 }
 
 body {
+    background-color: rgb(247, 247, 247);
     margin: 0;
+    padding-top: 80px;
+    padding-left: 96px;
+    padding-right: 24px;
+    display: flex;
 }

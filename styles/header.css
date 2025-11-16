@@ -1,21 +1,35 @@
 .header {
     height: 55px;
-
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    background-color: white;
+    z-index: 100;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(228, 228, 228)
 }
 
 .left-section {
     display: flex;
     align-items: center;
-
 }
 
 .hamburguer-menu {
     height: 24px;
     margin-left: 24px;
     margin-right: 24px;
+}
+
+.hamburguer-menu-container,
+.youtube-logo-container {
+    cursor: pointer;
 }
 
 .youtube-logo {
@@ -34,7 +48,7 @@
 
 .search-bar {
     flex: 1;
-    height: 36px;
+    height: 36.5px;
     padding-left: 10px;
     font-size: 16px;
     border-width: 1px;
@@ -52,18 +66,66 @@
 
 .search-button {
     height: 40px;
-    width: 66px;
+    width: 65px;
     background-color: rgb(247, 247, 247);
     border-width: 1px;
     border-style: solid;
     border-color: rgb(204, 204, 204);
     margin-left: -1px;
     margin-right: 10px;
+    cursor: pointer;
+    position: relative;
 }
+
+.search-button:hover{
+    background-color: rgb(228, 228, 228); 
+}
+
+.search-button,
+.voice-search-button,
+.upload-icon-container,
+.youtube-apps-container,
+.notifications-icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.search-button .tooltip,
+.voice-search-button .tooltip,
+.upload-icon-container .tooltip,
+.youtube-apps-container .tooltip,
+.notifications-icon-container .tooltip {
+    font-family: Roboto, Arial;
+    position: absolute;
+    background-color: gray;
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 2px;
+    font-size: 12px;
+    bottom: -30px;
+    opacity: 0;
+    transition: opacity 0.15s;
+}
+
+.search-button:hover .tooltip,
+.voice-search-button:hover .tooltip,
+.upload-icon-container:hover .tooltip,
+.youtube-apps-container:hover .tooltip,
+.notifications-icon-container:hover .tooltip {
+    opacity: 1;
+    pointer-events: none;
+    white-space: nowrap;
+}
+
 
 .search-icon {
     height: 25px;
-    margin-top: 4px;
 }
 
 .voice-search-button {
@@ -102,7 +164,27 @@
     height: 24px;
 }
 
+.notifications-icon-container {
+    position: relative;
+}
+
+.notifications-count {
+    font-family: Roboto, Arial;
+    font-size: 11px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 10px;
+    position: absolute;
+    background-color: rgb(200, 0, 0);
+    color: white;
+    top: -2px;
+    right: -5px;
+}
+
 .current-user-picture {
     height: 32px;
     border-radius: 16px;
 }
+
